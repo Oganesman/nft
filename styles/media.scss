@@ -1,0 +1,49 @@
+// Using
+//.div {
+//   @include _1170 {
+//       @content;
+//   }
+//}
+
+//media_mixin.scss
+@mixin w_1600 {
+	@media (min-width: 1600px) {
+		@content;
+	}
+}
+@mixin w_1200 {
+	@media (max-width: 1200px) {
+		@content;
+	}
+}
+@mixin w_1050 {
+	@media (max-width: 1050px) {
+		@content;
+	}
+}
+@mixin w_950 {
+	@media (max-width: 950px) {
+		@content;
+	}
+}
+@mixin w_882 {
+	@media (max-width: 882px) {
+		@content;
+	}
+}
+
+@mixin h_829 {
+	@media (max-height: 829px) {
+		@content;
+	}
+}
+@mixin h_430 {
+	@media (max-height: 430px) {
+		@content;
+	}
+}
+@mixin h_300 {
+	@media (max-height: 300px) {
+		@content;
+	}
+}

@@ -105,6 +105,10 @@ html {
 	padding-left: 60px;
 	align-items: center;
 	padding-right: 70px;
+	@include w_950{
+	padding-left: 30px;
+	padding-right: 35px;
+	}
 }
 .content-header__logo {
 	display: block;
@@ -215,6 +219,9 @@ html {
 	flex-basis: 203px;
 	@include h_829 {
 		top: 120px;
+	}
+	@include w_950{
+		left: 32px;
 	}
 }
 
@@ -329,6 +336,9 @@ html {
 		bottom: 0;
 		left: 0;
 	}
+	@include  w_950 {
+		font-size: 35px;
+	}
 }
 .swiper-body__desc {
 	font-family: "Catamaran";
@@ -338,6 +348,12 @@ html {
 	line-height: 1.3;
 	margin: 0 0 75px;
 	padding-right: 70px;
+	@include  w_950 {
+		font-size: 15px;
+	}
+	@include w_950{
+		margin: 0 0 50px;
+	} 
 }
 .swiper-body__buttons {
 	display: flex;
@@ -383,6 +399,9 @@ html {
 		top: -5px;
 		left: -5px;
 	}
+	@include w_730 {
+		font-size: 13px;
+	}
 	// &:hover:before, &:hover:after{
 	// 	top: 0;
 	// 	left: 0;
@@ -411,6 +430,10 @@ html {
 		background-size: cover;
 		top: calc(50% - 9px);
 		left: 16px;
+	}
+	@include w_730 {
+		font-size: 13px;
+		padding: 12px 22px 12px 52px;
 	}
 }
 

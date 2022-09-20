@@ -997,7 +997,7 @@ html {
   position: absolute;
   width: 22px;
   height: 18px;
-  background: url(/images/eye.svg);
+  background: url(../images/eye.svg);
   background-repeat: no-repeat;
   background-size: cover;
   top: calc(50% - 9px);

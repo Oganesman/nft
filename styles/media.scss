@@ -42,6 +42,18 @@
 	}
 }
 
+
+
+@mixin h_1239 {
+	@media (min-height: 1239px) {
+		@content;
+	}
+}
+@mixin h_1069 {
+	@media (min-height: 1069px) {
+		@content;
+	}
+}
 @mixin h_829 {
 	@media (max-height: 829px) {
 		@content;

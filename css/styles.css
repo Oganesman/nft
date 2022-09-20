@@ -551,6 +551,18 @@ html {
   left: 10%;
 }
 
+@media (min-height: 1069px) {
+  .swiper-slide__img {
+    width: 48%;
+  }
+}
+
+@media (min-height: 1239px) {
+  .swiper-slide__img {
+    width: 56%;
+  }
+}
+
 @media (max-height: 829px) {
   .swiper-slide__img {
     width: auto;

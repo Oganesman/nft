@@ -254,6 +254,12 @@ html {
 	width: 42%;
 	bottom: 0px;
 	left: 10%;
+	@include h_1069{
+		width: 48%;
+	}
+	@include h_1239{
+		width: 56%;
+	}
 	@include h_829 {
 		width: auto;
 		height: 80vh;
